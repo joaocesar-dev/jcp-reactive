@@ -5,7 +5,7 @@ import br.dev.jcp.training.jcpreactive.model.BeerDTO;
 import org.mapstruct.Mapper;
 
 
-@Mapper()
+@Mapper(componentModel = "spring")
 public interface BeerMapper {
     Beer beerDtoToBeer(BeerDTO dto);
     BeerDTO beerToBeerDto(Beer beer);

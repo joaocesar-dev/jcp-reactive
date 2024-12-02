@@ -115,9 +115,6 @@
                             <artifactId>mapstruct-processor</artifactId>
                             <version>${org.mapstruct.version}</version>
                         </path>
-                        <compilerArgs>
-                            <compilerArg>-Amapstruct.defaultComponentModel=spring</compilerArg>
-                        </compilerArgs>
                     </annotationProcessorPaths>
                 </configuration>
             </plugin>
